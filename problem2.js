@@ -6,7 +6,7 @@
 // Just as in the first problem, generally, this code takes the first.txt file and second.txt file and puts them together with "Here is the result:" in a new file called "result-sync.txt"
 // However, in this problem we are doing it asynchronously
 
-// Just as in problem 1, here we are destructuring and assigning a variable to the readFileSync and writeFileSync functions from the "fs" module.
+// Just as in problem 1, here we are destructuring and importing the readFileSync and writeFileSync functions from the "fs" module.
 // But in this problem we will be using the asynchronous built in functions
 const { readFile, writeFile } = require("fs");
 
