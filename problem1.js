@@ -5,7 +5,7 @@
 // Code:
 // Generally, this code takes the first.txt file and second.txt file and puts them together with "Here is the result:" in a new file called "result-sync.txt"
 
-// Here we are destructuring and assigning a variable to the readFileSync and writeFileSync functions from the "fs" module.
+// Here we are destructuring and importing the readFileSync and writeFileSync functions from the "fs" module.
 const { readFileSync, writeFileSync } = require("fs");
 
 // Here we are assigning a variable to the fs (or file system) module
