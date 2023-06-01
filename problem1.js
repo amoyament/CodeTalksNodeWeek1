@@ -12,6 +12,7 @@ const { readFileSync, writeFileSync } = require("fs");
 const fs = require("fs");
 
 // Here we are assigning variables specifically to each .txt file so it will be easier to call on later
+// This is done synchronously, meaning it will wait for the first to finish before it moves onto the next one
 const first = readFileSync("./content/first.txt", "utf8");
 const second = readFileSync("./content/second.txt", "utf8");
 
